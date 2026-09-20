@@ -1,0 +1,40 @@
+baseURL = 'https://ihatejazz-original.github.io/'
+languageCode = 'en-us'
+title = 'Cdr. Ashwin Fernandes (Retd.)'
+theme = 'PaperMod'
+
+[params]
+  defaultTheme = 'auto'
+  showReadingTime = true
+  showShareButtons = false
+  showCodeCopyButtons = true
+
+  [params.homeInfoParams]
+    Title = "Cdr. Ashwin Fernandes (Retd.) ⚓"
+    Content = """
+    Director of Campus Operations & Infrastructure | Kodaikanal International School  
+    *Naval Submarine Veteran • Environmental Activist • Data & Tech Enthusiast*
+    """
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/ihatejazz-original"
+
+[menu]
+  [[menu.main]]
+    identifier = "vlogs"
+    name = "Vlogs 📹"
+    url = "/vlogs/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "sustainability"
+    name = "Sustainability 🌿"
+    url = "/sustainability/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "iot"
+    name = "IoT & Automation 🤖"
+    url = "/iot/"
+    weight = 30
