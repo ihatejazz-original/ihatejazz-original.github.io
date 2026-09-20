@@ -28,7 +28,8 @@ jobs:
         with:
           hugo-version: 'latest'
           extended: true
-
+      - name: Download PaperMod Theme
+        run: git clone https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
       - name: Build
         run: hugo --minify
 
